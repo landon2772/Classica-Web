@@ -2,6 +2,8 @@
    Design tokens mirror the app's AppTheme:
    parchment-and-ink ground, Tyrian purple + gold leaf, restrained serif display. */
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap');
+
 :root {
   /* Parchment / ink (light) */
   --parchment:      #F4ECD8;
@@ -81,10 +83,10 @@ header {
 }
 
 .brand {
-  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  font-family: "Cinzel", "Iowan Old Style", Palatino, Georgia, serif;
   font-weight: 600;
   font-size: 1.4rem;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--accent);
   text-decoration: none;
 }
