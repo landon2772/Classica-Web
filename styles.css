@@ -185,6 +185,47 @@ section { margin-bottom: 8px; }
 
 .muted { color: var(--text-secondary); font-size: 0.95rem; }
 
+/* ---- About page ---- */
+.about-intro {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.about-intro .about-text { flex: 1 1 320px; }
+
+/* Portrait / photo. Swap the <img> src for your own image, or the
+   .img-placeholder below stands in until you do. */
+.about-portrait {
+  flex: 0 0 240px;
+  width: 240px;
+  max-width: 100%;
+}
+.about-portrait img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--divider);
+  display: block;
+}
+.img-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  border: 1px dashed var(--gold-rule);
+  background: var(--surface-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  padding: 16px;
+}
+.img-placeholder.wide { aspect-ratio: 16 / 9; }
+figure { margin: 28px 0 8px; }
+figcaption { color: var(--text-secondary); font-size: 0.9rem; margin-top: 8px; }
+
 /* ---- Footer ---- */
 footer {
   border-top: 1px solid var(--divider);
